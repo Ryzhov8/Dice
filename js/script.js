@@ -83,6 +83,7 @@ function init() {
     e.classList.remove("player--active", "player--win");
     if (i === 0) e.classList.add("player--active");
   });
+  refs.btnsArr.forEach((e) => e.classList.remove("btn--rotate"));
   refs.activePlayer = document.querySelector(".player--active");
   refs.dice.classList.remove("hide");
   currentScore = 0;
