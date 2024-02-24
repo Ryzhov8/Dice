@@ -110,6 +110,10 @@ main {
     }
   }
 
+  &--win {
+    background-color: rgba(105, 219, 124, 0.6);
+  }
+
   @include respond("phone") {
     height: 50%;
     width: 100%;
@@ -344,4 +348,8 @@ main {
 
 .show-6 {
   transform: rotateY(-450deg) rotateZ(-1440deg);
+}
+
+.hide {
+  display: none;
 }

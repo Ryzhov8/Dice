@@ -111,6 +111,9 @@ main {
 .player--active .heading {
   font-weight: 700;
 }
+.player--win {
+  background-color: rgba(105, 219, 124, 0.6);
+}
 @media (max-width: 37.5em) {
   .player {
     height: 50%;
@@ -342,4 +345,8 @@ main {
 
 .show-6 {
   transform: rotateY(-450deg) rotateZ(-1440deg);
+}
+
+.hide {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
