@@ -259,27 +259,27 @@ main {
 }
 
 .side:nth-child(1) {
-  transform: translateZ(3.1em);
+  transform: translateZ(2.7em);
 }
 
 .side:nth-child(6) {
-  transform: rotateY(90deg) translateZ(3.1em);
+  transform: rotateY(90deg) translateZ(2.7em);
 }
 
 .side:nth-child(3) {
-  transform: rotateY(-90deg) translateZ(3.1em);
+  transform: rotateY(-90deg) translateZ(2.7em);
 }
 
 .side:nth-child(4) {
-  transform: rotateX(90deg) translateZ(3.1em);
+  transform: rotateX(90deg) translateZ(2.7em);
 }
 
 .side:nth-child(5) {
-  transform: rotateX(-90deg) translateZ(3.1em);
+  transform: rotateX(-90deg) translateZ(2.7em);
 }
 
 .side:nth-child(2) {
-  transform: rotateY(-180deg) translateZ(3.1em);
+  transform: rotateY(-180deg) translateZ(2.7em);
 }
 
 .two-1,
