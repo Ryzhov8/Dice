@@ -249,8 +249,13 @@ main {
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50px;
-  background-color: #ef233c;
-  box-shadow: inset 2px 2px #d90429;
+  background-color: #5f3dc4;
+  box-shadow: inset 2px 2px #452c91;
+
+  &--red {
+    background-color: #ef233c;
+    box-shadow: inset 2px 2px #d90429;
+  }
 }
 
 .side:nth-child(1) {

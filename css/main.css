@@ -246,6 +246,10 @@ main {
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50px;
+  background-color: #5f3dc4;
+  box-shadow: inset 2px 2px #452c91;
+}
+.dot--red {
   background-color: #ef233c;
   box-shadow: inset 2px 2px #d90429;
 }
