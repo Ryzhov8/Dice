@@ -33,12 +33,12 @@ function rollDice() {
   if (number === 1) {
     // Reset the current score value and switch the player
     currentScore = 0;
-    updateCurrentScore();
-    switchPlayer();
+    setTimeout(updateCurrentScore, 1000);
+    setTimeout(switchPlayer, 1000);
   } else {
     // Update the current score value
     currentScore += number;
-    updateCurrentScore();
+    setTimeout(updateCurrentScore, 1000);
   }
 }
 
